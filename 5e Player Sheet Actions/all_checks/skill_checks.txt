@@ -1,0 +1,4 @@
+!## Name: skill_checks
+
+/w "@{selected|character_name}" &{template:npcaction} {{rname=Skill Checks}} {{description=Select Skill Check
+[Acrobatics](~selected|acrobatics) [Arcana](~selected|arcana) [Animal Handling](~selected|animal_handling) [Athletics](~selected|athletics) [Deception](~selected|deception) [History](~selected|history) [Insight](~selected|insight) [Intimidation](~selected|intimidation) [Investigation](~selected|investigation) [Medicine](~selected|medicine) [Nature](~selected|nature) [Perception](~selected|perception) [Performance](~selected|performance) [Persuasion](~selected|persuasion) [Religion](~selected|religion) [Sleight of Hand](~selected|sleight_of_hand) [Stealth](~selected|stealth) [Survival](~selected|survival) }}

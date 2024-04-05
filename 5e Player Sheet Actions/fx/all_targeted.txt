@@ -1,0 +1,1 @@
+/fx ?{Effect|bomb|bubbling|burn|burst|explode|glow|missile|nova}-?{Element|Fire,fire|Acid,acid|Cold,frost|Lightning,smoke|Water,water|Poison,slime|Blood,blood|Charm,charm|Death,death|Holy,holy|Magic,magic} @{target|Foe|token_id}

@@ -1,0 +1,1 @@
+?{Roll|Public, |To DM,/w gm,|To Other,/w ?{Who?&#124;Lucas&#124;Chris&#124;Reid&#125;} Rolling ?{Number|1}?{Type|D20|D2|D4|D6|D8|D12|D100}+?{Modifier|0}: [[ ?{Number}?{Type} + ?{Modifier}]]

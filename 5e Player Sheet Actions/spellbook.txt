@@ -1,0 +1,50 @@
+!## Remove excess rows. You will need to manually add them as you gain spells.
+
+
+/w "@{selected|character_name}" &{noerror} &{template:npcaction} {{rname=@{selected|character_name}'s Spellbook}} {{description=**Cantrips**
+[@{repeating_spell-cantrip_$0_spellname}](~selected|repeating_spell-cantrip_$0_spell)
+[@{repeating_spell-cantrip_$1_spellname}](~selected|repeating_spell-cantrip_$1_spell)
+[@{repeating_spell-cantrip_$2_spellname}](~selected|repeating_spell-cantrip_$2_spell)
+[@{repeating_spell-cantrip_$3_spellname}](~selected|repeating_spell-cantrip_$3_spell)
+[@{repeating_spell-cantrip_$4_spellname}](~selected|repeating_spell-cantrip_$4_spell)
+[@{repeating_spell-cantrip_$5_spellname}](~selected|repeating_spell-cantrip_$5_spell)
+[@{repeating_spell-cantrip_$6_spellname}](~selected|repeating_spell-cantrip_$6_spell)
+[@{repeating_spell-cantrip_$7_spellname}](~selected|repeating_spell-cantrip_$7_spell)
+[@{repeating_spell-cantrip_$8_spellname}](~selected|repeating_spell-cantrip_$8_spell)
+[@{repeating_spell-cantrip_$9_spellname}](~selected|repeating_spell-cantrip_$9_spell)
+[@{repeating_spell-cantrip_$10_spellname}](~selected|repeating_spell-cantrip_$10_spell)
+[@{repeating_spell-cantrip_$11_spellname}](~selected|repeating_spell-cantrip_$11_spell)
+
+**1st:**
+[@{repeating_spell-1_$0_spellname}](~selected|repeating_spell-1_$0_spell)
+[@{repeating_spell-1_$1_spellname}](~selected|repeating_spell-1_$1_spell)
+[@{repeating_spell-1_$2_spellname}](~selected|repeating_spell-1_$2_spell)
+[@{repeating_spell-1_$3_spellname}](~selected|repeating_spell-1_$3_spell)
+[@{repeating_spell-1_$4_spellname}](~selected|repeating_spell-1_$4_spell)
+[@{repeating_spell-1_$5_spellname}](~selected|repeating_spell-1_$5_spell)
+[@{repeating_spell-1_$6_spellname}](~selected|repeating_spell-1_$6_spell)
+[@{repeating_spell-1_$7_spellname}](~selected|repeating_spell-1_$7_spell)
+
+**2nd:**
+[@{repeating_spell-2_$0_spellname}](~selected|repeating_spell-2_$0_spell)
+[@{repeating_spell-2_$1_spellname}](~selected|repeating_spell-2_$1_spell)
+[@{repeating_spell-2_$2_spellname}](~selected|repeating_spell-2_$2_spell)
+[@{repeating_spell-2_$3_spellname}](~selected|repeating_spell-2_$3_spell)
+[@{repeating_spell-2_$4_spellname}](~selected|repeating_spell-2_$4_spell)
+[@{repeating_spell-2_$5_spellname}](~selected|repeating_spell-2_$5_spell)
+[@{repeating_spell-2_$6_spellname}](~selected|repeating_spell-2_$6_spell)
+[@{repeating_spell-2_$7_spellname}](~selected|repeating_spell-2_$7_spell)
+
+**3rd:**
+[@{repeating_spell-3_$0_spellname}](~selected|repeating_spell-3_$0_spell)
+[@{repeating_spell-3_$1_spellname}](~selected|repeating_spell-3_$1_spell)
+[@{repeating_spell-3_$2_spellname}](~selected|repeating_spell-3_$2_spell)
+[@{repeating_spell-3_$3_spellname}](~selected|repeating_spell-3_$3_spell)
+[@{repeating_spell-3_$4_spellname}](~selected|repeating_spell-3_$4_spell)
+[@{repeating_spell-3_$5_spellname}](~selected|repeating_spell-3_$5_spell)
+
+**@{selected|repeating_resource_$1_resource_left_name} Remaining : @{selected|repeating_resource_$1_resource_left}**
+
+}}
+
+!## The repeating resource shows my Spell Points while using the spell points variant. Remove if you are not tracking spell points.

@@ -1,0 +1,3 @@
+!## Dependencies:    Abilities [ability_checks, ability_saves, skill_checks]
+
+/w "@{selected|character_name}" &{template:npcaction} {{rname=Roll}} {{description=Select type of Roll [Ability Check](~selected|ability_checks) [Death Save](~selected|death_save) [Saving Roll](~selected|ability_saves) [Skill Check](~selected|skill_checks) }}

@@ -1,0 +1,1 @@
+/fx ?{Effect|beam|breath|splatter}-?{Element|Fire,fire|Acid,acid|Cold,frost|Lightning,smoke|Water,water|Poison,slime|Blood,blood|Charm,charm|Death,death|Holy,holy|Magic,magic} @{target|Caster|token_id} @{target|Foe|token_id}

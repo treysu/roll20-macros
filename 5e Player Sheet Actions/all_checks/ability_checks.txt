@@ -1,0 +1,3 @@
+!## Name: ability_checks
+
+/w "@{selected|character_name}" &{template:npcaction} {{rname=Ability Checks}} {{description=Select type of Ability Check [Strength](~selected|strength) [Dexterity](~selected|dexterity) [Constitution](~selected|constitution) [Intelligence](~selected|intelligence) [Wisdom](~selected|wisdom) [Charisma](~selected|charisma) }}    

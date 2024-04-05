@@ -1,0 +1,2 @@
+/fx glow-blood @{target|Token to target|token_id}
+/fx bubbling-blood @{target|Token to target|token_id}

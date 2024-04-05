@@ -1,0 +1,4 @@
+!## Name: ability_saves
+
+/w "@{selected|character_name}" &{template:npcaction} {{rname=Saving Throw}} {{description=Select Saving Throw 
+[Strength](~selected|strength_save) [Dexterity](~selected|dexterity_save) [Constitution](~selected|constitution_save) [Intelligence](~selected|intelligence_save) [Wisdom](~selected|wisdom_save) [Charisma](~selected|charisma_save) }}
